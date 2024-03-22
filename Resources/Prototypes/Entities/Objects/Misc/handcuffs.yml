@@ -174,7 +174,7 @@
     startCuffSound:
       path: /Audio/Misc/honkalarm.ogg
       params:
-        volume: -1
+        volume: -50
     endCuffSound:
       path: /Audio/Items/bikehorn.ogg
     startUncuffSound:
