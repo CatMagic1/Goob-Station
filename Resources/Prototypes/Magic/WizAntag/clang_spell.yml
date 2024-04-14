@@ -1,0 +1,8 @@
+- type: entity
+  id: ActionClangPolymorph
+  noSpawn: true
+  components:
+  - type: InstantAction
+    event: !type:PolymorphActionEvent
+      protoid: ImmovableRodWizard
+    itemIconStyle: NoItem
