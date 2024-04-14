@@ -5,4 +5,7 @@
   - type: InstantAction
     event: !type:PolymorphActionEvent
       protoId: WizardClang
-    itemIconStyle: NoItem
+    itemIconStyle: BigAction
+    icon:
+      sprite: Objects/Fun/immovable_rod.rsi
+      state: icon
