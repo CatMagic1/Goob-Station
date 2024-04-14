@@ -18,7 +18,7 @@
   components:
   - type: GhostRole
     name: Angry Skeleton
-    description: Follow the orders of the wizard that summoned you.
+    description: Follow the orders of the wizard that summoned you. Wreak havoc on the station.
   - type: GhostTakeoverAvailable
   - type: RandomHumanoidAppearance
   - type: MobThresholds
