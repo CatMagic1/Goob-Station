@@ -4,5 +4,5 @@
   components:
   - type: InstantAction
     event: !type:PolymorphActionEvent
-      protoid: ImmovableRodWizard
+      protoid: WizardClang
     itemIconStyle: NoItem

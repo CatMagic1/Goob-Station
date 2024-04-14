@@ -434,3 +434,24 @@
       ActionExplosionRune: -1
       ActionIgniteRune: -1
       ActionStunRune: -1
+
+- type: entity
+  id: ClangSpellbook
+  name: rod spellbook
+  parent: BaseSpellbook
+  components:
+   - type: Sprite
+     sprite: Objects/Misc/books.rsi
+     layers:
+     - state: paper
+     - state: cover_strong
+       color: "#5f0000"
+     - state: icon_text3
+     - state: decor_wingette_circle
+       color: gold
+     - state: icon_magic_smoke
+     - state: detail_rivets
+       color: gold
+   - type: Spellbook
+     spells:
+       ActionClangPolymorph: -1

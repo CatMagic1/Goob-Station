@@ -576,8 +576,11 @@
       state: full
     - type: RandomMetadata
       nameSegments: [names_wizard_first, names_wizard_last]
-    - type: RandomHumanoidSpawner
-      settings: WizardApprentice
+    - type: Loadout
+      prototypes: [WizardBlueGearApprentice]
+    - type: NpcFactionMember
+      factions:
+      - Wizard
 
 - type: randomHumanoidSettings
   id: Wizard
@@ -590,9 +593,3 @@
 
 - type: randomHumanoidSettings
   id: WizardApprentice
-  components:
-    - type: Loadout
-      prototypes: [WizardBlueGearApprentice]
-    - type: NpcFactionMember
-      factions:
-      - Wizard

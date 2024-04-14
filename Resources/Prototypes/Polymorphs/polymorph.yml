@@ -164,3 +164,14 @@
     revertOnDeath: true
     revertOnCrit: true
     duration: 20
+
+- type: polymorph
+  id: WizardClang
+  configuration:
+    entity: ImmovableRodWizard
+    forced: true
+    transferName: true
+    inventory: Transfer
+    revertOnDeath: true
+    revertOnCrit: true
+    duration: 5
