@@ -562,9 +562,9 @@
       sprite: Mobs/Species/Human/parts.rsi
       state: full
     - type: RandomMetadata
-      nameSegments: [names_wizard]
+      nameSegments: [names_wizard_first, names_wizard_last]
     - type: RandomHumanoidSpawner
-      settings: WizardApprentice
+      settings: Wizard
 
 - type: entity
   parent: BaseMobHuman
@@ -574,10 +574,10 @@
     - type: Sprite
       sprite: Mobs/Species/Human/parts.rsi
       state: full
-    - type: Loadout
-      prototypes: [WizardBlueGearApprentice]
     - type: RandomMetadata
       nameSegments: [names_wizard_first, names_wizard_last]
+    - type: RandomHumanoidSpawner
+      settings: WizardApprentice
 
 - type: randomHumanoidSettings
   id: Wizard
@@ -587,7 +587,6 @@
     - type: NpcFactionMember
       factions:
       - Wizard
-
 
 - type: randomHumanoidSettings
   id: WizardApprentice
