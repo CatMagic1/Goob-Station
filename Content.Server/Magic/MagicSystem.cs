@@ -496,16 +496,6 @@ public sealed class MagicSystem : EntitySystem
                     var mobtransform = Transform(entity);
                     var mobcoords = mobtransform.MapPosition;
                     var mob = Spawn("MobSkeletonAngry", mobcoords);
-                    _metaData.SetEntityName(mob, "angry skeleton");
-                    _metaData.SetEntityDescription(mob, "This skeleton is out for blood");
-                    _npcFactionSystem.AddFaction(mob, "SimpleHostile");
-                    _npcFactionSystem.RemoveFaction(mob, "NanoTrasen", false);
-                    _npcFactionSystem.IgnoreEntity(entity, args.Performer);
-                    var comp = _entityManager.AddComponent<HTNComponent>(mob);
-                    comp.RootTask = new HTNCompoundTask()
-                    {
-                        Task = "SimpleHostileCompound"
-                    };
                 }
             }
         }

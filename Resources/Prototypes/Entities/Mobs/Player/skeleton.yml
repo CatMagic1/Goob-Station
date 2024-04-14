@@ -12,20 +12,27 @@
 
 - type: entity
   name: angry skeleton
+  description: This skeleton is out for blood.
   parent: MobSkeletonPerson
   id: MobSkeletonAngry
   components:
   - type: GhostRole
-    name: ghost-role-information-skeleton-pirate-name
-    description: ghost-role-information-skeleton-pirate-description
+    name: Angry Skeleton
+    description: Follow the orders of the wizard that summoned you.
   - type: GhostTakeoverAvailable
   - type: RandomHumanoidAppearance
   - type: MobThresholds
     thresholds:
       0: Alive
-      75: Critical
       100: Dead
-  - type: TransferMindOnGib
+  - type: MeleeWeapon
+    soundHit:
+      collection: AlienClaw
+    angle: 30
+    animation: WeaponArcClaw
+    damage:
+      types:
+        Piercing: 12
   - type: Destructible
     thresholds:
     - trigger:
@@ -33,6 +40,12 @@
         damage: 100
       behaviors:
       - !type:GibBehavior { }
+  - type: NpcFactionMember
+    factions:
+      - Wizard
+  - type: HTN
+    rootTask:
+      task: SimpleHostileCompound
 
 - type: entity
   name: skeleton pirate
