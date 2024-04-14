@@ -4,5 +4,5 @@
   components:
   - type: InstantAction
     event: !type:PolymorphActionEvent
-      protoid: WizardClang
+      protoId: WizardClang
     itemIconStyle: NoItem
