@@ -6,7 +6,7 @@
     back: ClothingBackpackFilled
     head: ClothingHeadHatWizard
     outerClothing: ClothingOuterWizard
-    shoes: ClothingShoesWizard
+    shoes: ClothingShoesWizardNoSlip
     id: WizardPDA
     ears: ClothingHeadsetService
   innerClothingSkirt: ClothingUniformJumpskirtColorDarkBlue
@@ -20,7 +20,7 @@
     back: ClothingBackpackFilled
     head: ClothingHeadHatWizard
     outerClothing: ClothingOuterWizard
-    shoes: ClothingShoesWizard
+    shoes: ClothingShoesWizardNoSlip
     belt: BaseSpellbookShop6MP
     id: WizardPDA
     ears: ClothingHeadsetService
@@ -35,7 +35,7 @@
     back: ClothingBackpackFilled
     head: ClothingHeadHatRedwizard
     outerClothing: ClothingOuterWizardRed
-    shoes: ClothingShoesWizard
+    shoes: ClothingShoesWizardNoSlip
     id: WizardPDA
     ears: ClothingHeadsetService
   innerClothingSkirt: ClothingUniformJumpskirtColorRed
@@ -49,7 +49,7 @@
     back: ClothingBackpackFilled
     head: ClothingHeadHatVioletwizard
     outerClothing: ClothingOuterWizardViolet
-    shoes: ClothingShoesWizard
+    shoes: ClothingShoesWizardNoSlip
     id: WizardPDA
     ears: ClothingHeadsetService
   innerClothingSkirt: ClothingUniformJumpskirtColorPurple
@@ -62,7 +62,7 @@
     jumpsuit: ClothingUniformJumpsuitColorPurple
     back: ClothingBackpackFilled
     outerClothing: ClothingOuterHardsuitWizard
-    shoes: ClothingShoesWizard
+    shoes: ClothingShoesWizardNoSlip
     id: WizardPDA
     ears: ClothingHeadsetService
   innerClothingSkirt: ClothingUniformJumpskirtColorPurple

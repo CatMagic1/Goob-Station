@@ -148,6 +148,15 @@
     sprite: Clothing/Shoes/Specific/wizard.rsi
 
 - type: entity
+  parent: ClothingShoesWizard
+  id: ClothingShoesWizardNoSlip
+  name: wizard shoes
+  suffix: NoSlip
+  description: A pair of magic shoes that prevent you from slipping.
+  components:
+  - type: NoSlip
+
+- type: entity
   parent: ClothingShoesBase
   id: ClothingShoesChameleon
   name: black shoes
