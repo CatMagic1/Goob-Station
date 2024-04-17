@@ -175,3 +175,13 @@
     revertOnDeath: true
     revertOnCrit: true
     duration: 5
+
+- type: polymorph
+  id: WizardCow
+  configuration:
+    entity: MobCowWizard
+    forced: false
+    transferName: true
+    inventory: Transfer
+    revertOnDeath: true
+    revertOnCrit: true

@@ -9,3 +9,15 @@
     icon:
       sprite: Objects/Fun/immovable_rod.rsi
       state: icon
+
+- type: entity
+  id: ActionCowPolymorph
+  noSpawn: true
+  components:
+  - type: InstantAction
+    event: !type:PolymorphActionEvent
+      protoId: WizardCow
+    itemIconStyle: BigAction
+    icon:
+      sprite: Objects/Fun/immovable_rod.rsi
+      state: icon
