@@ -801,6 +801,7 @@
   - type: StaticPrice
     price: 750
   - type: Gun
+    projectileSpeed: 16
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
   - type: ProjectileBatteryAmmoProvider
@@ -812,3 +813,6 @@
       fireCost: 150
     - proto: BulletDisabler
       fireCost: 100
+  - type: Battery
+    maxCharge: 6000
+    startingCharge: 6000
