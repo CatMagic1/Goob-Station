@@ -1,5 +1,6 @@
 # Tier 1
 
+#Level 2 Fun/Useful
 - type: technology
   id: SalvageWeapons
   name: research-technology-salvage-weapons
@@ -14,6 +15,7 @@
   - ShuttleGunKineticCircuitboard
   # These are roundstart but not replenishable for salvage
 
+#Level 3
 - type: technology
   id: DraconicMunitions
   name: research-technology-draconic-munitions
@@ -22,7 +24,7 @@
     state: incendiarydisplay
   discipline: Arsenal
   tier: 1
-  cost: 10000
+  cost: 7500
   recipeUnlocks:
   - ShellShotgunIncendiary
   - CartridgePistolIncendiary
@@ -34,6 +36,7 @@
   - MagazineBoxLightRifleIncendiary
   - MagazineBoxRifleIncendiary
 
+#Level 2
 - type: technology
   id: WeaponizedLaserManipulation
   name: research-technology-weaponized-laser-manipulation
@@ -42,10 +45,11 @@
     state: icon
   discipline: Arsenal
   tier: 1
-  cost: 7500
+  cost: 5000
   recipeUnlocks:
   - WeaponLaserCarbine
 
+#Level 2.5
 - type: technology
   id: UraniumMunitions
   name: research-technology-uranium-munitions
@@ -54,7 +58,7 @@
     state: uranium
   discipline: Arsenal
   tier: 1
-  cost: 7500
+  cost: 5000
   recipeUnlocks:
   - ShellShotgunUranium
   - CartridgePistolUranium
@@ -66,6 +70,7 @@
   - MagazineBoxLightRifleUranium
   - MagazineBoxRifleUranium
 
+#Level 2.5
 - type: technology
   id: AdvancedRiotControl
   name: research-technology-advanced-riot-control
@@ -74,7 +79,7 @@
     state: icon
   discipline: Arsenal
   tier: 1
-  cost: 8000
+  cost: 7500
   recipeUnlocks:
   - Truncheon
   - TelescopicShield
@@ -82,7 +87,7 @@
   - WeaponDisablerSMG
 
 # Tier 2
-
+#Level 3
 - type: technology
   id: ExplosiveTechnology
   name: research-technology-explosive-technology
@@ -91,7 +96,7 @@
     state: payload-explosive-armed
   discipline: Arsenal
   tier: 2
-  cost: 10000
+  cost: 7500
   recipeUnlocks:
   - SignallerAdvanced
   - SignalTrigger
@@ -101,6 +106,7 @@
   - ExplosivePayload
   - ChemicalPayload
 
+#Level 3
 - type: technology
   id: ConcentratedLaserWeaponry
   name: research-technology-concentrated-laser-weaponry
@@ -113,6 +119,7 @@
   recipeUnlocks:
   - WeaponLaserCannon
 
+#Level 3
 - type: technology
   id: WaveParticleHarnessing
   name: research-technology-wave-particle-harnessing
@@ -125,6 +132,7 @@
   recipeUnlocks:
   - WeaponXrayCannon
 
+#Level 3
 - type: technology
   id: BasicShuttleArmament
   name: research-technology-basic-shuttle-armament
@@ -133,7 +141,7 @@
     state: full
   discipline: Arsenal
   tier: 2
-  cost: 10500
+  cost: 5000
   recipeUnlocks:
   - PowerCageRechargerCircuitboard
   - PowerCageSmall
@@ -146,8 +154,38 @@
   technologyPrerequisites:
   - SalvageWeapons
 
-# Tier 3
+#Level 3
+- type: technology
+  id: ExperimentalBatteryAmmo
+  name: research-technology-experimental-battery-ammo
+  icon:
+    sprite: Objects/Weapons/Guns/Battery/svalinn.rsi
+    state: icon
+  discipline: Arsenal
+  tier: 2
+  cost: 7500
+  recipeUnlocks:
+  - WeaponLaserSvalinn
 
+#Level 3
+- type: technology
+  id: AdvancedShuttleWeapon
+  name: research-technology-advanced-shuttle-weapon
+  icon: 
+    sprite: Objects/Weapons/Guns/Ammunition/Magazine/Grenade/grenade_cartridge.rsi
+    state: icon
+  discipline: Arsenal
+  tier: 2
+  cost: 7500
+  recipeUnlocks:
+  - GrenadeEMP
+  - PowerCageHigh
+  - ShuttleGunDusterCircuitboard
+  technologyPrerequisites:
+  - BasicShuttleArmament
+
+# Tier 3
+#Level 3
 - type: technology
   id: PortableMicrofusionWeaponry
   name: research-technology-portable-microfusion-weaponry
@@ -156,34 +194,6 @@
     state: icon
   discipline: Arsenal
   tier: 3
-  cost: 15000
+  cost: 10000
   recipeUnlocks:
   - WeaponAdvancedLaser
-
-- type: technology
-  id: ExperimentalBatteryAmmo
-  name: research-technology-experimental-battery-ammo
-  icon:
-    sprite: Objects/Weapons/Guns/Battery/svalinn.rsi
-    state: icon
-  discipline: Arsenal
-  tier: 3
-  cost: 15000
-  recipeUnlocks:
-  - WeaponLaserSvalinn
-  
-- type: technology
-  id: AdvancedShuttleWeapon
-  name: research-technology-advanced-shuttle-weapon
-  icon: 
-    sprite: Objects/Weapons/Guns/Ammunition/Magazine/Grenade/grenade_cartridge.rsi
-    state: icon
-  discipline: Arsenal
-  tier: 3
-  cost: 15000
-  recipeUnlocks:
-  - GrenadeEMP
-  - PowerCageHigh
-  - ShuttleGunDusterCircuitboard
-  technologyPrerequisites:
-  - BasicShuttleArmament

@@ -8,7 +8,7 @@
     state: fab-idle
   discipline: Experimental
   tier: 1
-  cost: 5000
+  cost: 2500
   recipeUnlocks:
   - ProximitySensor
   - ExosuitFabricatorMachineCircuitboard
@@ -21,7 +21,7 @@
     state: icon
   discipline: Experimental
   tier: 1
-  cost: 5000
+  cost: 2500
   recipeUnlocks:
   - AnomalyScanner
   - AnomalyLocator
@@ -38,7 +38,7 @@
     state: display
   discipline: Experimental
   tier: 1
-  cost: 5000
+  cost: 2500
   recipeUnlocks:
   - NodeScanner
   - BorgModuleArtifact
@@ -53,7 +53,7 @@
     state: display
   discipline: Experimental
   tier: 1
-  cost: 5000
+  cost: 2500
   recipeUnlocks:
   - TechDiskComputerCircuitboard
 
@@ -65,7 +65,7 @@
     state: icon
   discipline: Experimental
   tier: 1
-  cost: 7500
+  cost: 5000
   recipeUnlocks:
   - ClothingShoesBootsMagSci
 
@@ -77,7 +77,7 @@
     state: icon
   discipline: Experimental
   tier: 1
-  cost: 10000
+  cost: 7500
   recipeUnlocks:
   - WeaponGauntletGorilla
 
@@ -104,7 +104,7 @@
     state: base
   discipline: Experimental
   tier: 2
-  cost: 10000
+  cost: 7500
   recipeUnlocks:
   - WeaponPistolCHIMP
   - AnomalySynchronizerCircuitboard
@@ -134,7 +134,7 @@
     sprite: Objects/Weapons/Guns/Launchers/tether_gun.rsi
     state: base
   discipline: Experimental
-  tier: 3
+  tier: 2
   cost: 10000
   recipeUnlocks:
     - WeaponForceGun

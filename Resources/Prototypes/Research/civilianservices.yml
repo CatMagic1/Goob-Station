@@ -8,7 +8,7 @@
     state: seedextractor
   discipline: CivilianServices
   tier: 1
-  cost: 5000
+  cost: 2500
   recipeUnlocks:
   - BorgModuleGardening
   - BorgModuleHarvesting
@@ -24,7 +24,7 @@
     state: hamtr
   discipline: CivilianServices
   tier: 1
-  cost: 7500
+  cost: 2500
   recipeUnlocks:
   - HamtrHarness
   - HamtrLArm
@@ -44,7 +44,7 @@
     state: cameracase
   discipline: CivilianServices
   tier: 1
-  cost: 5000
+  cost: 2500
   recipeUnlocks:
   - SurveillanceCameraRouterCircuitboard
   - SurveillanceCameraWirelessRouterCircuitboard
@@ -62,7 +62,7 @@
     state: television
   discipline: CivilianServices
   tier: 1
-  cost: 7500
+  cost: 5000
   recipeUnlocks:
     - ComputerTelevisionCircuitboard
     - SynthesizerInstrument
@@ -93,7 +93,7 @@
     state: display
   discipline: CivilianServices
   tier: 1
-  cost: 7500
+  cost: 5000
   recipeUnlocks:
   - FatExtractorMachineCircuitboard
   - BiofabricatorMachineCircuitboard
@@ -109,7 +109,7 @@
     state: astroice
   discipline: CivilianServices
   tier: 2
-  cost: 5000
+  cost: 2500
   recipeUnlocks:
   - FauxTileAstroGrass
   - FauxTileMowedAstroGrass
@@ -125,7 +125,7 @@
     state: icon
   discipline: CivilianServices
   tier: 2
-  cost: 7500
+  cost: 5000
   recipeUnlocks:
   - StasisBedMachineCircuitboard
   - CryoPodMachineCircuitboard
@@ -153,7 +153,7 @@
     state: advmop
   discipline: CivilianServices
   tier: 2
-  cost: 10000
+  cost: 5000
   recipeUnlocks:
   - AdvMopItem
   - MegaSprayBottle
@@ -186,10 +186,11 @@
     state: icon
   discipline: CivilianServices
   tier: 2
-  cost: 10000
+  cost: 7500
   recipeUnlocks:
   - WeaponSprayNozzle
   - ClothingBackpackWaterTank
+  - MegaSprayBottle
 
 # Tier 3
 
@@ -200,8 +201,8 @@
     sprite: Structures/cargo_telepad.rsi
     state: display
   discipline: CivilianServices
-  tier: 3
-  cost: 15000
+  tier: 2
+  cost: 7500
   recipeUnlocks:
   - CargoTelepadMachineCircuitboard
 
@@ -224,7 +225,7 @@
     sprite: Objects/Specific/Chemistry/beaker_bluespace.rsi
     state: beakerbluespace
   discipline: CivilianServices
-  tier: 3
+  tier: 2
   cost: 10000
   recipeUnlocks:
   - BluespaceBeaker
