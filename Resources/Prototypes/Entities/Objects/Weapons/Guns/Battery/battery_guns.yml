@@ -779,7 +779,7 @@
 
 - type: entity
   name: energy gun
-  parent: BaseWeaponBatterySmall
+  parent: BaseWeaponBattery
   id: WeaponEnergyGun
   description: A strong, reliable, and versatile energy gun used by many security forces throughout the galaxy. Can switch between lethal and disable modes.
   components:
@@ -801,11 +801,6 @@
   - type: StaticPrice
     price: 750
   - type: Gun
-    projectileSpeed: 4
-    fireRate: 1.5
-    selectedMode: SemiAuto
-    availableModes:
-    - SemiAuto
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
   - type: ProjectileBatteryAmmoProvider
