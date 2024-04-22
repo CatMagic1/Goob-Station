@@ -788,13 +788,13 @@
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
-    - state: mag-unshaded-3
+    - state: redmag-unshaded-3
       map: ["enum.GunVisualLayers.MagUnshaded"]
       shader: unshaded
   - type: Clothing
     sprite: Objects/Weapons/Guns/Battery/antiquelasergun.rsi
   - type: MagazineVisuals
-    magState: mag
+    magState: redmag
     steps: 4
     zeroVisible: true
   - type: Appearance
@@ -811,8 +811,10 @@
     fireModes:
     - proto: BulletEnergyGunLaser
       fireCost: 150
+      magSprite: redmag
     - proto: BulletDisabler
       fireCost: 100
+      magSprite: bluemag
   - type: Battery
     maxCharge: 3000
     startingCharge: 3000
