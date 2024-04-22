@@ -801,7 +801,7 @@
   - type: StaticPrice
     price: 750
   - type: Gun
-    projectileSpeed: 16
+    projectileSpeed: 13
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
   - type: ProjectileBatteryAmmoProvider
@@ -814,5 +814,11 @@
     - proto: BulletDisabler
       fireCost: 100
   - type: Battery
-    maxCharge: 6000
-    startingCharge: 6000
+    maxCharge: 3000
+    startingCharge: 3000
+  - type: GenericVisualizer
+    visuals:
+      enum.EnergyGunFireModeVisuals.State:
+        Firemode:
+          Disabler: { color: red }
+          Lethal: { color: blue }
