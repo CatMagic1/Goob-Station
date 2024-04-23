@@ -32761,7 +32761,6 @@ entities:
       solutions:
         drink:
           temperature: 293.15
-          canMix: False
           canReact: True
           maxVol: 30
           name: null
@@ -68044,6 +68043,20 @@ entities:
 - proto: SpawnPointCaptain
   entities:
   - uid: 6046
+    components:
+    - type: Transform
+      pos: 4.5,30.5
+      parent: 1
+- proto: SpawnPointBlueshieldOfficer
+  entities:
+  - uid: 121464342
+    components:
+    - type: Transform
+      pos: 4.5,30.5
+      parent: 1
+- proto: SpawnPointNanotrasenRepresentative
+  entities:
+  - uid: 42146433
     components:
     - type: Transform
       pos: 4.5,30.5

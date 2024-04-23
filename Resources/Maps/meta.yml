@@ -15599,13 +15599,6 @@ entities:
       parent: 5350
 - proto: BoxShotgunIncendiary
   entities:
-  - uid: 3116
-    components:
-    - type: Transform
-      pos: 21.56827,-12.3393
-      parent: 5350
-    - type: BallisticAmmoProvider
-      unspawnedCount: 12
   - uid: 10381
     components:
     - type: Transform
@@ -137107,6 +137100,20 @@ entities:
 - proto: SpawnPointCaptain
   entities:
   - uid: 1084
+    components:
+    - type: Transform
+      pos: 12.5,5.5
+      parent: 5350
+- proto: SpawnPointBlueshieldOfficer
+  entities:
+  - uid: 121464342
+    components:
+    - type: Transform
+      pos: 12.5,5.5
+      parent: 5350
+- proto: SpawnPointNanotrasenRepresentative
+  entities:
+  - uid: 42146433
     components:
     - type: Transform
       pos: 12.5,5.5
